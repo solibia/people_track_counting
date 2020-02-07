@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b833feb-b7e7-41dd-9e09-256f3fd7b024" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1VTkgPamebj77jxUYh6Spr0POYt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.cv_tp2_1">
+    <configuration name="cv_tp2_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="people-counting-opencv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cv_tp2_1" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cv_tp2_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="people-counting-opencv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cv_tp2_2" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cv_tp2_2_k" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="people-counting-opencv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cv_tp2_2_k" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="people_counter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="people-counting-opencv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/people_counter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.cv_tp2_1" />
+        <item itemvalue="Python.cv_tp2_2" />
+        <item itemvalue="Python.cv_tp2_2_k" />
+        <item itemvalue="Python.people_counter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b833feb-b7e7-41dd-9e09-256f3fd7b024" name="Default Changelist" comment="" />
+      <created>1577284582914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577284582914</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="485" y="396" width="800" height="684" key="#Inspections" timestamp="1577286340218">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="485" y="396" width="800" height="684" key="#Inspections/0.27.1920.1053@0.27.1920.1053" timestamp="1577286340218" />
+    <state x="365" y="204" width="626" height="392" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579287970286">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="365" y="204" width="626" height="392" key="#com.intellij.fileTypes.FileTypeChooser/0.30.1366.738@0.30.1366.738" timestamp="1579287970286" />
+    <state x="614" y="494" key="FileChooserDialogImpl" timestamp="1577286503999">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="614" y="494" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1577286503999" />
+    <state width="1001" height="172" key="GridCell.Tab.0.bottom" timestamp="1579317781334">
+      <screen x="0" y="30" width="2390" height="738" />
+    </state>
+    <state width="1602" height="227" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1577289477520" />
+    <state width="1343" height="211" key="GridCell.Tab.0.bottom/0.30.1366.738@0.30.1366.738" timestamp="1579316684684" />
+    <state width="1001" height="172" key="GridCell.Tab.0.bottom/0.30.2390.738@0.30.2390.738" timestamp="1579317781334" />
+    <state width="1001" height="172" key="GridCell.Tab.0.center" timestamp="1579317781333">
+      <screen x="0" y="30" width="2390" height="738" />
+    </state>
+    <state width="1602" height="227" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1577289477519" />
+    <state width="1343" height="211" key="GridCell.Tab.0.center/0.30.1366.738@0.30.1366.738" timestamp="1579316684683" />
+    <state width="1001" height="172" key="GridCell.Tab.0.center/0.30.2390.738@0.30.2390.738" timestamp="1579317781333" />
+    <state width="1001" height="172" key="GridCell.Tab.0.left" timestamp="1579317781332">
+      <screen x="0" y="30" width="2390" height="738" />
+    </state>
+    <state width="1602" height="227" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1577289477518" />
+    <state width="1343" height="211" key="GridCell.Tab.0.left/0.30.1366.738@0.30.1366.738" timestamp="1579316684682" />
+    <state width="1001" height="172" key="GridCell.Tab.0.left/0.30.2390.738@0.30.2390.738" timestamp="1579317781332" />
+    <state width="1001" height="172" key="GridCell.Tab.0.right" timestamp="1579317781334">
+      <screen x="0" y="30" width="2390" height="738" />
+    </state>
+    <state width="1602" height="227" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1577289477519" />
+    <state width="1343" height="211" key="GridCell.Tab.0.right/0.30.1366.738@0.30.1366.738" timestamp="1579316684683" />
+    <state width="1001" height="172" key="GridCell.Tab.0.right/0.30.2390.738@0.30.2390.738" timestamp="1579317781334" />
+    <state x="233" y="38" width="910" height="730" key="SettingsEditor" timestamp="1579272986150">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="328" y="121" width="977" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1577285041120" />
+    <state x="233" y="38" width="910" height="730" key="SettingsEditor/0.30.1366.738@0.30.1366.738" timestamp="1579272986150" />
+    <state x="0" y="30" width="615" height="738" key="find.popup" timestamp="1579282144829">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="0" y="30" width="615" height="738" key="find.popup/0.30.1366.738@0.30.1366.738" timestamp="1579282144829" />
+  </component>
+</project>

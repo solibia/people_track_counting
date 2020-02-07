@@ -1,0 +1,88 @@
+import argparse
+import datetime
+import imutils
+# import time
+import cv2
+import numpy as np
+
+
+cap = cv2.VideoCapture("/home/basile/PythonProjects/WalkByShop1cor.mpg")
+_,f = cap.read()
+
+avg1 = np.float32(f)
+avg2 = np.float32(f)
+firstFrame = f
+firstFrame = cv2.cvtColor(f, cv2.COLOR_BGR2GRAY)
+
+#nuframe = 0
+while (cap.isOpened()):
+    _, f = cap.read()
+
+    frame = f
+    #cv2.accumulateWeighted(f, avg1, 0.1)
+    cv2.accumulateWeighted(f, avg2, 0.01)
+
+    #res1 = cv2.convertScaleAbs(avg1)
+    res2 = cv2.convertScaleAbs(avg2)
+    text = "Aucun mouvement"
+    cv2.imshow("AVG", res2)
+#
+    f = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    frameDelta = cv2.absdiff(f, firstFrame)
+    thresh = cv2.threshold(frameDelta, 100, 255, cv2.THRESH_BINARY)[1]
+
+    thresh = cv2.dilate(thresh, None, iterations=2)
+
+    cnts = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+
+    cnts = imutils.grab_contours(cnts)
+
+    # loop over the contours
+    nbCts = 0
+    for c in cnts:
+        if cv2.contourArea(c) < 500:
+            continue
+
+        nbCts = nbCts+1
+        (x, y, w, h) = cv2.boundingRect(c)
+        cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
+        text = "Detection de mouvement"
+
+        #to get objects center
+        ((cx, cy), radius) = cv2.minEnclosingCircle(c)
+        M = cv2.moments(c)
+        centers = (int(M["m10"] / M["m00"]), int(M["m01"] / M["m00"]))
+        radius = int(radius)
+        #if centers[1] < 206 :
+        #    count += 1
+        # to draw the object centroids
+        cv2.circle(frame, centers, 3, (0, 0, 255), -1)
+        # compute the bounding box for the contour, draw it on the frame,
+        # and update the number of mooving objects
+        (x, y, w, h) = cv2.boundingRect(c)
+        cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
+        #plt.plot(centers[0], centers[1], 'ob')
+
+
+        #pts.append(centers)
+
+    # draw the text and timestamp on the frame
+    cv2.putText(frame, "{} {}".format(text,nbCts), (10, 20),
+                cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+    cv2.putText(frame, datetime.datetime.now().strftime("%A %d %B %Y %I:%M:%S%p"),
+                (10, frame.shape[0] - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.35, (0, 0, 255), 1)
+
+    # show the frame and record if the user presses a key
+    #cv2.imshow("AVG1", avg1)
+    #cv2.imshow("AVG2", avg2)
+    cv2.imshow("Sec Feed", frame)
+    cv2.imshow("Threshould", thresh)
+    cv2.imshow("Delta", frameDelta)
+
+    k = cv2.waitKey(20)
+
+    if k == 27:
+        break
+
+cv2.destroyAllWindows()
+cap.release()
